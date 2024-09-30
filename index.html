@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="envelope-wrapper">
+            
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear freshers!</strong>
+                        <p>
+                            Welcome to the beginning of an exciting journey! We’re thrilled to invite you to our Fresher Party- a day filled with fun, friendship, and unforgettable memories.
+                        </p>
+                        <a class="link" href="https://google.con">thank you!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="heart">
+                <!-- <div class="click">click</div> -->
+            </div>
+        </div>
+        <div class="timelinepart">
+            <p>Comming soon</p>
+            <div class="time">
+              <div class="inputdiv">
+                <input type="text" readonly  value="00" />
+                <label for=""><span>Days</span></label>
+              </div>
+              <div class="inputdiv">
+                <input type="text" readonly  value="00"/>
+                <label for=""><span>Hour</span></label>
+              </div>
+              <div class="inputdiv">
+                <input type="text" readonly  value="00"/>
+                <label for=""><span>Minutes</span></label>
+              </div>
+              <div class="inputdiv">
+                <input type="text" readonly  value="00"/>
+                <label for=""><Span>Seconds</Span></label>
+              </div>
+            </div>
+
+          </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
