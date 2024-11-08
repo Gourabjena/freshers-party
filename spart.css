@@ -36,7 +36,7 @@
 .vol{
   display: flex;
   align-items: center;
-  column-gap: 5px;
+  column-gap: 10px;
   width: 20%;
   background-color: rgb(236, 237, 239);
   box-shadow: 0 27px 20px -19px rgba(197, 70, 223, 0.31);
@@ -141,7 +141,7 @@
   width: 60%;
 }
   .java-effect span{
-  font-size:13px;
+  font-size: 15px;
 }
 
 }
