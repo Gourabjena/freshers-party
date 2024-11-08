@@ -1,4 +1,4 @@
-endTime="5 october 2024 00:00";
+endTime="10 november 2024 09:30";
 let input=document.querySelectorAll("input")
 console.log(input);
  function clock(){
@@ -13,7 +13,7 @@ console.log(input);
   const minutes=Math.floor((diff/60)%60);
   const seconds=Math.floor((diff)%60);
   if(day>0){
-  input[0].value=time(day);
+  // input[0].value=time(day);
   input[1].value=time(hour);
   input[2].value=time(minutes);
   input[3].value=time(seconds);
