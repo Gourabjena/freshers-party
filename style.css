@@ -124,7 +124,7 @@ body{
   transition-delay: 0.4s;
 }
 .link{
-  margin-left: 70%;
+  margin-left: 50%;
   color: red;
   cursor: pointer;
 }
